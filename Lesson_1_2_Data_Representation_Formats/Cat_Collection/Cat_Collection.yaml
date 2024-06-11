@@ -1,0 +1,29 @@
+---
+cats: 
+- name: "Whiskers"
+  age: "3"
+  breed: "Siamese"
+  color: "Brown"
+  isIndoor: "true"
+  favoriteFoods: 
+  - "Salmon"
+  - "Tuna"
+  vaccinated: "true"
+- name: "Shadow"
+  age: "5"
+  breed: "Persian"
+  color: "Black"
+  isIndoor: "false"
+  favoriteFoods: 
+  - "Chicken"
+  - "Beef"
+  vaccinated: "false"
+- name: "Luna"
+  age: "1"
+  breed: "Bengal"
+  color: "Spotted"
+  isIndoor: "false"
+  favoriteFoods: 
+  - "Fish"
+  - "Shrimp"
+  vaccinated: "true"

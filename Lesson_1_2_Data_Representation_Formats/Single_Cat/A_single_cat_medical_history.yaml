@@ -1,0 +1,35 @@
+---
+name: "Whiskers"
+age: "3"
+breed: "Siamese"
+color: "Brown"
+isIndoor: "true"
+favoriteFoods: 
+- "Salmon"
+- "Tuna"
+health: 
+  vaccinated: "true"
+  weightKg: "4.5"
+  medicalRecords: 
+  - date: "2023-01-15"
+    description: "Annual check-up"
+    notes: 
+  - date: "2023-06-10"
+    description: "Dental cleaning"
+    notes: "No issues found"
+ownerContact: 
+  name: "Alice"
+  phoneNumber: "+123456789"
+  email: "alice@example.com"
+  address: 
+    street: "123 Main St"
+    city: "Catville"
+    postalCode: "12345"
+toys: 
+- type: "Mouse"
+  material: "Plastic"
+  sound: "false"
+- type: "Ball"
+  material: "Rubber"
+  sound: "true"
+microchipped: "false"

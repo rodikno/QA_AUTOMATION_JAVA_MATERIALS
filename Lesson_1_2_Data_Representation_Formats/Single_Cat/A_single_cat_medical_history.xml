@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+ <root>
+     <name>Whiskers</name>
+     <age>3</age>
+     <breed>Siamese</breed>
+     <color>Brown</color>
+     <isIndoor>true</isIndoor>
+     <favoriteFoods>Salmon</favoriteFoods>
+     <favoriteFoods>Tuna</favoriteFoods>
+     <health>
+         <vaccinated>true</vaccinated>
+         <weightKg>4.5</weightKg>
+         <medicalRecords>
+             <date>2023-01-15</date>
+             <description>Annual check-up</description>
+             <notes></notes>
+         </medicalRecords>
+         <medicalRecords>
+             <date>2023-06-10</date>
+             <description>Dental cleaning</description>
+             <notes>No issues found</notes>
+         </medicalRecords>
+     </health>
+     <ownerContact>
+         <name>Alice</name>
+         <phoneNumber>+123456789</phoneNumber>
+         <email>alice@example.com</email>
+         <address>
+             <street>123 Main St</street>
+             <city>Catville</city>
+             <postalCode>12345</postalCode>
+         </address>
+     </ownerContact>
+     <toys>
+         <type>Mouse</type>
+         <material>Plastic</material>
+         <sound>false</sound>
+     </toys>
+     <toys>
+         <type>Ball</type>
+         <material>Rubber</material>
+         <sound>true</sound>
+     </toys>
+     <microchipped>false</microchipped>
+ </root>

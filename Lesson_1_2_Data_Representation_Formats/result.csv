@@ -1,0 +1,4 @@
+﻿"name","age","breed","color","isIndoor","favoriteFoods","health__vaccinated","health__weightKg","health__medicalRecords__date","health__medicalRecords__description","health__medicalRecords__notes","ownerContact__name","ownerContact__phoneNumber","ownerContact__email","ownerContact__address__street","ownerContact__address__city","ownerContact__address__postalCode","toys__type","toys__material","toys__sound","microchipped"
+"Whiskers","3","Siamese","Brown","True","Salmon","True","4.5","2023-01-15","Annual check-up","null","Alice","+123456789","alice@example.com","123 Main St","Catville","12345","Mouse","Plastic","False","False"
+"","","","","","Tuna","","","2023-06-10","Dental cleaning","No issues found","","","","","","","Ball","Rubber","True",""
+"","","","","","","","","2023-06-11","Dental cleaning","True","","","","","","","","","",""
