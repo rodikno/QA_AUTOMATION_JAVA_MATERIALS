@@ -4,11 +4,5 @@ public class Main {
 
         int myNumber = 31;
         System.out.println("My number is: " + myNumber);
-        byte num = 100;
-        long longNym = 1_000_000_000L;
-
-        char letter = 45;
-
-        System.out.println("The letter is: " + letter);
     }
 }
