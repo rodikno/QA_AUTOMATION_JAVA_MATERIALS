@@ -43,3 +43,12 @@ CROSS JOIN Owners;
 SELECT c1.Name AS Cat1, c2.Name AS Cat2, c1.OwnerID
 FROM Cats c1
 INNER JOIN Cats c2 ON c1.OwnerID = c2.OwnerID AND c1.CatID <> c2.CatID;
+
+
+SELECT v1.`VisitDate`, v1.`Reason`, mr1.`Diagnosis`, mr1.`Treatment`, c1.`Name` as CatName, c1.`Breed` as CatBreed, 
+ow1.`Name` as OwnersName, ow1.`Phone` as OwnersPhone
+FROM Visits v1
+JOIN `MedicalRecords` mr1 ON mr1.`VisitID` = v1.`VisitID`
+JOIN Cats c1 ON c1.`CatID` = v1.`CatID`
+JOIN `Owners` ow1 ON c1.`OwnerID` = ow1.`OwnerID`
+WHERE v1.`VisitDate` > '2024-03-01';
