@@ -1,0 +1,19 @@
+{
+  "name": "Whiskers",
+  "breed": "Persian",
+  "age": 4,
+  "color": "White",
+  "weight": "5.5 kg",
+  "favorite_food": "Tuna",
+  "vaccinated": true,
+  "personality_traits": [
+    "Calm",
+    "Playful",
+    "Affectionate"
+  ],
+  "physical_characteristics": {
+    "eye_color": "Green",
+    "fur_length": "Long",
+    "tail_length": "Medium"
+  }
+}
