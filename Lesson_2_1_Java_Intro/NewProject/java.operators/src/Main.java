@@ -1,36 +1,61 @@
 public class Main {
     public static void main(String[] args) {
         // Assignment operators (=)
-        // Example: int a = 10;
+        int a = 10;
+        int b = 5;
 
+// Arithmetic operators (+, -, *, /, %)
+        int sum = a + b;
+        int difference = a - b;
+        int product = a * b;
+        double quotient = a / (double) b; // use double cast to prevent truncating in integer division
+        int modulus = a % b;
 
-        // Arithmetic operators (+, -, *, /, %)
-        // Example: int sum = a + 5;
+// Unary operators (+, -, ++, --) - PREFIX and POSTFIX
+        int positiveA = +a;
+        int negativeA = -a;
+        int incrementPrefix = ++a;
+        a = 10; // resetting a's value
+        int incrementPostfix = a++;
+        a = 10; // resetting a's value
+        int decrementPrefix = --a;
+        a = 10; // resetting a's value
+        int decrementPostfix = a--;
 
-        // Unary operators (+, -, ++, --) - PREFIX and POSTFIX
+// Short assignment operators (+=, -=, *=, /=, %=)
+        a += b;
+        a -= b;
+        a *= b;
+        a /= b;
+        a %= b;
 
+// Comparison operators (==, !=, >, <, >=, <=)
+        boolean isEqual = (a == b);
+        boolean isNotEqual = (a != b);
+        boolean isGreater = (a > b);
+        boolean isLesser = (a < b);
+        boolean isGreaterOrEqual = (a >= b);
+        boolean isLesserOrEqual = (a <= b);
 
-        // Short assignment operators (+=, -=, *=, /=, %=)
-        // Example: a += 2;
+// Logical operators (&&, ||, !)
+        boolean logicalAnd = (a > 5 && b < 10);
+        boolean logicalOr = (a > 5 || b < 10);
+        boolean logicalNot = !(a > 5);
 
+// Bitwise operators (&, |, ^, ~, <<, >>, >>>)
+        int bitwiseAnd = a & b;
+        int bitwiseOr = a | b;
+        int bitwiseXor = a ^ b;
+        int bitwiseComplement = ~a;
+        int leftShift = a << 2;
+        int rightShift = a >> 2;
+        int zeroFillRightShift = a >>> 2;
 
-        // Comparison operators (==, !=, >, <, >=, <=)
-        // Example: boolean isEqual = (a == b);
+// Ternary operator (? :)
+        int result = (a > b) ? a : b;
 
-
-        // Logical operators (&&, ||, !)
-        // Example: boolean logicalAnd = (a > 5 && b < 10);
-
-
-        // Bitwise operators (&, |, ^, ~, <<, >>, >>>)
-        // Example: int bitwiseAnd = a & 2;
-
-
-        // Ternary operator (? :)
-        // Example: int result = (a > b) ? a : b;
-
-
-        // Output the results
-        // Example: System.out.println("a = " + a);
+// Output the results
+        System.out.println("a = " + a);
+        System.out.println("b = " + b);
     }
 }
