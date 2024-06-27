@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="827ba177-2948-4958-a71f-7eee730a7e0c" name="Changes" comment="Add MultiDimensionalArraysDemo and NestedLoopsDemo classes&#10;&#10;This commit introduces two new Java classes, MultiDimensionalArraysDemo and NestedLoopsDemo. The MultiDimensionalArraysDemo demonstrates the creation and usage of multi-dimensional arrays, while NestedLoopsDemo shows how to generate a multiplication table using nested loops.">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaBasics.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.arrays/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.arrays/src/MultiDimensionalArraysDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.conditionals/java.conditionals.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.conditionals/src/FunnyIf.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.conditionals/src/FunnyIfElse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.conditionals/src/FunnyIfElseIfElse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.conditionals/src/FunnySwitch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.conditionals/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.conditionals/src/WeatherTypes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.loops/src/BreakLoopDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.loops/src/ContinueLoopDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.loops/src/DoWhileLoopDemio.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.loops/src/EnhancedForEachLoopDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.loops/src/ForLoopDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.loops/src/InfiniteLoopDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.loops/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.loops/src/NestedLoopsDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.loops/src/ReturnFromLoopExplicitlyDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.loops/src/WhileLoopDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.operators/java.operators.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.operators/src/ArithmeticOperatorsAdvanced.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.operators/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArithmeticCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArithmeticOperationsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PrimitiveTypes.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;rodikno&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/rodikno/QA_AUTOMATION_JAVA_MATERIALS.git&quot;,
+    &quot;accountId&quot;: &quot;1d81baa9-4198-4f98-a857-a753d1cdbfa5&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2iOGJrwazXrD7Tzn7FY5UCJOkDY" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.BreakLoopDemo.executor": "Run",
+    "Application.ContinueLoopDemo.executor": "Run",
+    "Application.DoWhileLoopDemio.executor": "Run",
+    "Application.EnhancedForEachLoopDemo.executor": "Run",
+    "Application.ForEachLoopDemo.executor": "Run",
+    "Application.ForLoopDemo.executor": "Run",
+    "Application.InfiniteLoopDemo.executor": "Run",
+    "Application.Main (1).executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.NestedLoopsDemo.executor": "Run",
+    "Application.ReturnFromLoopExplicitlyDemo.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "X:/_projects/QA_AUTOMATION_JAVA_MATERIALS/JAVA_MATERIALS",
+    "settings.editor.selected.configurable": "editing.templates"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.NestedLoopsDemo">
+    <configuration name="BreakLoopDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BreakLoopDemo" />
+      <module name="java.loops" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContinueLoopDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ContinueLoopDemo" />
+      <module name="java.loops" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InfiniteLoopDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InfiniteLoopDemo" />
+      <module name="java.loops" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NestedLoopsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NestedLoopsDemo" />
+      <module name="java.loops" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReturnFromLoopExplicitlyDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ReturnFromLoopExplicitlyDemo" />
+      <module name="java.loops" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.NestedLoopsDemo" />
+        <item itemvalue="Application.ContinueLoopDemo" />
+        <item itemvalue="Application.BreakLoopDemo" />
+        <item itemvalue="Application.ReturnFromLoopExplicitlyDemo" />
+        <item itemvalue="Application.InfiniteLoopDemo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="827ba177-2948-4958-a71f-7eee730a7e0c" name="Changes" comment="" />
+      <created>1719354142441</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1719354142441</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Delete cat.json and update operator examples in Main.java&#10;&#10;The cat.json file was removed from the project as it was no longer needed. Additionally in Main.java, commented-out placeholders for various operators were replaced with actual functional code to demonstrate the usage of these operators. We now have examples for assignment, arithmetic, unary, short assignment, comparison, logical, bitwise, and ternary operators.">
+      <option name="closed" value="true" />
+      <created>1719354315550</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1719354315550</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add new Main.java file with array examples&#10;&#10;The new Main.java file demonstrates examples of creating and using different types of arrays in Java. This includes examples of one-dimensional, two-dimensional, three-dimensional, and higher dimensional arrays. The arrays are filled with a combination of pre-populated values and default values to illustrate different use cases.">
+      <option name="closed" value="true" />
+      <created>1719432042565</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1719432042565</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add loop demonstration files to java.loops module&#10;&#10;New demonstration files demonstrating functionality of different types of loops (For, While, Do-While, Continue, Break, Return) have been added. Also updated '.idea/modules.xml' to include the new 'java.loops' module. Demonstrations of Infinite loop and Explicit return from loop are also included.">
+      <option name="closed" value="true" />
+      <created>1719436518674</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1719436518674</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add EnhancedForEachLoopDemo in java.loops&#10;&#10;This commit creates a new file, EnhancedForEachLoopDemo.java, in the java.loops source directory. It consists of code that demonstrates the usage of an enhanced for loop with an integer array in Java.">
+      <option name="closed" value="true" />
+      <created>1719464604097</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1719464604097</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add MultiDimensionalArraysDemo and NestedLoopsDemo classes&#10;&#10;This commit introduces two new Java classes, MultiDimensionalArraysDemo and NestedLoopsDemo. The MultiDimensionalArraysDemo demonstrates the creation and usage of multi-dimensional arrays, while NestedLoopsDemo shows how to generate a multiplication table using nested loops.">
+      <option name="closed" value="true" />
+      <created>1719520074111</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1719520074111</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Delete cat.json and update operator examples in Main.java&#10;&#10;The cat.json file was removed from the project as it was no longer needed. Additionally in Main.java, commented-out placeholders for various operators were replaced with actual functional code to demonstrate the usage of these operators. We now have examples for assignment, arithmetic, unary, short assignment, comparison, logical, bitwise, and ternary operators." />
+    <MESSAGE value="Add new Main.java file with array examples&#10;&#10;The new Main.java file demonstrates examples of creating and using different types of arrays in Java. This includes examples of one-dimensional, two-dimensional, three-dimensional, and higher dimensional arrays. The arrays are filled with a combination of pre-populated values and default values to illustrate different use cases." />
+    <MESSAGE value="Add loop demonstration files to java.loops module&#10;&#10;New demonstration files demonstrating functionality of different types of loops (For, While, Do-While, Continue, Break, Return) have been added. Also updated '.idea/modules.xml' to include the new 'java.loops' module. Demonstrations of Infinite loop and Explicit return from loop are also included." />
+    <MESSAGE value="Add EnhancedForEachLoopDemo in java.loops&#10;&#10;This commit creates a new file, EnhancedForEachLoopDemo.java, in the java.loops source directory. It consists of code that demonstrates the usage of an enhanced for loop with an integer array in Java." />
+    <MESSAGE value="Add MultiDimensionalArraysDemo and NestedLoopsDemo classes&#10;&#10;This commit introduces two new Java classes, MultiDimensionalArraysDemo and NestedLoopsDemo. The MultiDimensionalArraysDemo demonstrates the creation and usage of multi-dimensional arrays, while NestedLoopsDemo shows how to generate a multiplication table using nested loops." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add MultiDimensionalArraysDemo and NestedLoopsDemo classes&#10;&#10;This commit introduces two new Java classes, MultiDimensionalArraysDemo and NestedLoopsDemo. The MultiDimensionalArraysDemo demonstrates the creation and usage of multi-dimensional arrays, while NestedLoopsDemo shows how to generate a multiplication table using nested loops." />
+  </component>
+</project>
