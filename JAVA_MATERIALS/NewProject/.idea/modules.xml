@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/JavaBasics.iml" filepath="$PROJECT_DIR$/JavaBasics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java.arrays/java.arrays.iml" filepath="$PROJECT_DIR$/java.arrays/java.arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java.conditionals/java.conditionals.iml" filepath="$PROJECT_DIR$/java.conditionals/java.conditionals.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java.loops/java.loops.iml" filepath="$PROJECT_DIR$/java.loops/java.loops.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java.operators/java.operators.iml" filepath="$PROJECT_DIR$/java.operators/java.operators.iml" />
+    </modules>
+  </component>
+</project>
