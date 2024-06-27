@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/JAVA_MATERIALS/NewProject/NewProject.iml" filepath="$PROJECT_DIR$/JAVA_MATERIALS/NewProject/NewProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/QA_AUTOMATION_JAVA_MATERIALS.iml" filepath="$PROJECT_DIR$/.idea/QA_AUTOMATION_JAVA_MATERIALS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JAVA_MATERIALS/NewProject/java.arrays/java.arrays.iml" filepath="$PROJECT_DIR$/JAVA_MATERIALS/NewProject/java.arrays/java.arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JAVA_MATERIALS/NewProject/java.conditionals/java.conditionals.iml" filepath="$PROJECT_DIR$/JAVA_MATERIALS/NewProject/java.conditionals/java.conditionals.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JAVA_MATERIALS/NewProject/java.loops/java.loops.iml" filepath="$PROJECT_DIR$/JAVA_MATERIALS/NewProject/java.loops/java.loops.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JAVA_MATERIALS/NewProject/java.operators/java.operators.iml" filepath="$PROJECT_DIR$/JAVA_MATERIALS/NewProject/java.operators/java.operators.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JAVA_MATERIALS/NewProject/java.string.and.reference.types/java.string.and.reference.types.iml" filepath="$PROJECT_DIR$/JAVA_MATERIALS/NewProject/java.string.and.reference.types/java.string.and.reference.types.iml" />
+    </modules>
+  </component>
+</project>
