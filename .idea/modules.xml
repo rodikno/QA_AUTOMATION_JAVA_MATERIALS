@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/JAVA_MATERIALS/NewProject/java.conditionals/java.conditionals.iml" filepath="$PROJECT_DIR$/JAVA_MATERIALS/NewProject/java.conditionals/java.conditionals.iml" />
       <module fileurl="file://$PROJECT_DIR$/JAVA_MATERIALS/NewProject/java.loops/java.loops.iml" filepath="$PROJECT_DIR$/JAVA_MATERIALS/NewProject/java.loops/java.loops.iml" />
       <module fileurl="file://$PROJECT_DIR$/JAVA_MATERIALS/NewProject/java.operators/java.operators.iml" filepath="$PROJECT_DIR$/JAVA_MATERIALS/NewProject/java.operators/java.operators.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JAVA_MATERIALS/NewProject/java.primitive.types/java.primitive.types.iml" filepath="$PROJECT_DIR$/JAVA_MATERIALS/NewProject/java.primitive.types/java.primitive.types.iml" />
       <module fileurl="file://$PROJECT_DIR$/JAVA_MATERIALS/NewProject/java.string.and.reference.types/java.string.and.reference.types.iml" filepath="$PROJECT_DIR$/JAVA_MATERIALS/NewProject/java.string.and.reference.types/java.string.and.reference.types.iml" />
     </modules>
   </component>
