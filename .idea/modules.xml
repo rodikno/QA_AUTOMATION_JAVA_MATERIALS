@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/JAVA_MATERIALS/NewProject/NewProject.iml" filepath="$PROJECT_DIR$/JAVA_MATERIALS/NewProject/NewProject.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/QA_AUTOMATION_JAVA_MATERIALS.iml" filepath="$PROJECT_DIR$/.idea/QA_AUTOMATION_JAVA_MATERIALS.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JAVA_MATERIALS/NewProject/java.arrays/java.arrays.iml" filepath="$PROJECT_DIR$/JAVA_MATERIALS/NewProject/java.arrays/java.arrays.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JAVA_MATERIALS/NewProject/java.conditionals/java.conditionals.iml" filepath="$PROJECT_DIR$/JAVA_MATERIALS/NewProject/java.conditionals/java.conditionals.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JAVA_MATERIALS/NewProject/java.loops/java.loops.iml" filepath="$PROJECT_DIR$/JAVA_MATERIALS/NewProject/java.loops/java.loops.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JAVA_MATERIALS/NewProject/java.operators/java.operators.iml" filepath="$PROJECT_DIR$/JAVA_MATERIALS/NewProject/java.operators/java.operators.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JAVA_MATERIALS/NewProject/java.primitive.types/java.primitive.types.iml" filepath="$PROJECT_DIR$/JAVA_MATERIALS/NewProject/java.primitive.types/java.primitive.types.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JAVA_MATERIALS/NewProject/java.string.and.reference.types/java.string.and.reference.types.iml" filepath="$PROJECT_DIR$/JAVA_MATERIALS/NewProject/java.string.and.reference.types/java.string.and.reference.types.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JAVA_MATERIALS/java.arrays/java.arrays.iml" filepath="$PROJECT_DIR$/JAVA_MATERIALS/java.arrays/java.arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JAVA_MATERIALS/java.conditionals/java.conditionals.iml" filepath="$PROJECT_DIR$/JAVA_MATERIALS/java.conditionals/java.conditionals.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JAVA_MATERIALS/java.current.demo/java.current.demo.iml" filepath="$PROJECT_DIR$/JAVA_MATERIALS/java.current.demo/java.current.demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JAVA_MATERIALS/java.loops/java.loops.iml" filepath="$PROJECT_DIR$/JAVA_MATERIALS/java.loops/java.loops.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JAVA_MATERIALS/java.operators/java.operators.iml" filepath="$PROJECT_DIR$/JAVA_MATERIALS/java.operators/java.operators.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JAVA_MATERIALS/java.primitive.types/java.primitive.types.iml" filepath="$PROJECT_DIR$/JAVA_MATERIALS/java.primitive.types/java.primitive.types.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JAVA_MATERIALS/java.string.and.reference.types/java.string.and.reference.types.iml" filepath="$PROJECT_DIR$/JAVA_MATERIALS/java.string.and.reference.types/java.string.and.reference.types.iml" />
     </modules>
   </component>
 </project>
