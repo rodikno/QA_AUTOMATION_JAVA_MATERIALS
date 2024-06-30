@@ -18,22 +18,10 @@ public class Main {
         String substringWithStartIndexOnly = cityName.substring(3); // "pro"
 
 
-        String s1 = "";
-        String s2 = " ";
-        String s3 = "\t\n";
-        String s4 = "Hello";
 
-        System.out.println(s1.isEmpty());  // true
-        System.out.println(s1.isBlank());  // true
 
-        System.out.println(s2.isEmpty());  // false
-        System.out.println(s2.isBlank());  // true
 
-        System.out.println(s3.isEmpty());  // false
-        System.out.println(s3.isBlank());  // true
 
-        System.out.println(s4.isEmpty());  // false
-        System.out.println(s4.isBlank());  // false
 
 
     }
