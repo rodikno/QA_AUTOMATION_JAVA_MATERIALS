@@ -2,12 +2,13 @@ public class Main {
     public static void main(String[] args) {
 
         Food sausage = new Food("Sausage", 50);
+//
+//        Animal someAnimal = new Animal("DefaultAnimal", 99);
+//        someAnimal.eat(sausage);
 
-        Animal someAnimal = new Animal();
-        Dog myDoggo = new Dog();
+        Dog myDoggo = new Dog("Johny", 5, "Alaskan Malamute");
 
-
-        someAnimal.eat(sausage);
+        myDoggo.eat(sausage);
         myDoggo.bark();
 
 
