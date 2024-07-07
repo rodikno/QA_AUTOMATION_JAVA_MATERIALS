@@ -6,5 +6,8 @@ public class SuperHero {
     String superpower;
     String weakness;
 
-
+    @Override
+    public String toString() {
+        return this.name;
+    }
 }
