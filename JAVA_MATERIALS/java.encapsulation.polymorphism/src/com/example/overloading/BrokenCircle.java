@@ -9,7 +9,7 @@ public class BrokenCircle extends Circle {
 
 
     public void draw(String smth) {
-        System.out.println("IM A BROKEN CIRCLE!");
+        System.out.println("IM A BROKEN CIRCLE! " + smth);
     }
     // Shape -> Circle -> BrokenCircle
 }
