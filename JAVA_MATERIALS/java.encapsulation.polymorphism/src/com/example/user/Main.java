@@ -4,6 +4,9 @@ public class Main {
     public static void main(String[] args) {
         // Create a User object
         User user = new User("JohnDoe", "john.doe@example.com", 25);
+        InactiveUser inactive = new InactiveUser();
+
+        inactive.setUsername("RODION");
 
         // Access and modify fields using getters and setters
         System.out.println("Username: " + user.getUsername());
@@ -11,7 +14,7 @@ public class Main {
         System.out.println("Age: " + user.getAge());
 
         // Modify the fields with additional processing
-        user.setUsername(" JohnDoe "); // Will be trimmed
+        user.setUsername("    Rodion    "); // Will be trimmed
         user.setEmail("john.doeatexample.com"); // Invalid email
         user.setAge(-5); // Invalid age
 

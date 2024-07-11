@@ -1,5 +1,7 @@
 package com.example.overloading;
 
-abstract class Shape {
-    public abstract void draw();
+class Shape {
+    public void draw() {
+        System.out.println("Drawing a SHAPE");
+    };
 }
