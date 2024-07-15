@@ -6,7 +6,8 @@ public class Main {
     public static void main(String[] args) {
         Apple apple = new Apple();
         apple.taste();
-        Eatable.eat();
+        apple.eat();
+        apple.squeeze();
 
     }
 }
