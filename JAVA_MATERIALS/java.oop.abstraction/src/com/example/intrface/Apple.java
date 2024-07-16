@@ -1,19 +1,24 @@
 package com.example.intrface;
 
-public class Apple implements Eatable, Squeezable {
+public class Apple extends AbstractFruit implements Squeezable, Eatable {
+
+    @Override
+    public void squeeze() {
+        System.out.println("OUUCH IM BEING SQUEEZED, TAKE MY JUICE");
+    }
+
     @Override
     public void eat() {
-        System.out.println("I'm an apple which is being eaten");
+        System.out.println("Ohh IM BEAING EATEN");
     }
 
     @Override
     public void taste() {
-        System.out.println("Tastes good");
+        System.out.println("I'm " + Apple.DEFAULT_TASTE + " and  my weight is " + this.getDefaultMass());
     }
 
-
     @Override
-    public void squeeze() {
-
+    void getJuiciness() {
+        System.out.println("OOOH IM SO JUICY");
     }
 }

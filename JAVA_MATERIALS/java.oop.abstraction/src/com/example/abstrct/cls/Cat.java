@@ -4,15 +4,17 @@ public class Cat extends AbstractAnimal {
 
     public Cat(String name, int age) {
         super(name, age);
+
     }
 
     @Override
-    public void makeSound() {
-        System.out.println("Meow");
+    protected void makeSound() {
+        System.out.println("Мяу!");
     }
 
+
     @Override
-    public void eat() {
-        System.out.println("Purr it's so tasty");
+    void eat() {
+        System.out.println("Ням-ням я котик");
     }
 }

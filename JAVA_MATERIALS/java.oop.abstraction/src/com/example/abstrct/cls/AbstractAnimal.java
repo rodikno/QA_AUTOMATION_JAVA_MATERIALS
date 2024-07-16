@@ -1,6 +1,6 @@
 package com.example.abstrct.cls;
 
-abstract class AbstractAnimal extends AbstractLivingCreature {
+public abstract class AbstractAnimal extends AbstractLivingCreature {
     String name;
     int age;
 
@@ -9,11 +9,13 @@ abstract class AbstractAnimal extends AbstractLivingCreature {
         this.age = age;
     }
 
-    abstract void makeSound();
+    protected abstract void makeSound();
 
-    void sleep() {
+
+    static void sleep() {
         System.out.println("Zzz...");
     }
+
 
     public void displayInfo() {
         System.out.println(this.name + ", " + this.age);

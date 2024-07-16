@@ -1,6 +1,6 @@
 package com.example.intrface;
 
-public interface Eatable {
+interface Eatable {
     String DEFAULT_TASTE = "SWEET";
     int DEFAULT_MASS = 300;
 
