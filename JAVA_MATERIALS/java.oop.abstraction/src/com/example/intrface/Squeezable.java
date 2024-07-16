@@ -1,5 +1,6 @@
 package com.example.intrface;
 
-public interface Squizable {
+@FunctionalInterface
+public interface Squeezable {
     void squeeze();
 }
