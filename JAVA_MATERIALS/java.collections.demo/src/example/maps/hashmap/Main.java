@@ -2,6 +2,7 @@ package example.maps.hashmap;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Set;
 
 public class Main {
     public static void main(String[] args) {
@@ -12,8 +13,8 @@ public class Main {
 
         System.out.println(hashMap); // {One=1, Two=2}
 
-        int value = hashMap.get("One");
-        System.out.println(value); // 1
+        int someValue = hashMap.get("One");
+        System.out.println(someValue); // 1
 
         hashMap.remove("Two");
         System.out.println(hashMap); // {One=1}
@@ -23,5 +24,14 @@ public class Main {
 
         boolean containsValue = hashMap.containsValue(1);
         System.out.println(containsValue); // true
+
+        Set<Map.Entry<String, Integer>> entries = hashMap.entrySet();
+
+        for (Map.Entry<String, Integer> entry : hashMap.entrySet()) {
+            System.out.println(entry.getKey() + ": " + entry.getValue());
+        }
+
+        hashMap.forEach((key, value) -> System.out.println(key + ": " + value));
+
     }
 }

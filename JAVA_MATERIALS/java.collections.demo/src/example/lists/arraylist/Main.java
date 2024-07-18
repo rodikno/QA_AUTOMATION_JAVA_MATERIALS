@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
+
         ArrayList<String> arrayList = new ArrayList<>();
 
         arrayList.add("Hello");
@@ -20,5 +21,14 @@ public class Main {
 
         arrayList.set(0, "Programming");
         System.out.println(arrayList); // [Programming, World]
+
+        for (String value : arrayList) {
+            System.out.println(value);
+        }
+
+        arrayList.forEach(value -> System.out.println(value));
+        arrayList.stream().forEach(value -> System.out.println(value));
+
+
     }
 }
