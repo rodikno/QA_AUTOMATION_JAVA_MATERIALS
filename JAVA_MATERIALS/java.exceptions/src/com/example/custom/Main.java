@@ -13,7 +13,7 @@ public class Main {
         if (age > 0) {
             System.out.println("The age is valid");
         } else {
-            throw new AgeLessThanZeroException(new InvalidParameterException());
+            throw new AgeLessThanZeroException("Ooops! The age you enter must be 1 or more", new InvalidParameterException());
         }
 
     }
