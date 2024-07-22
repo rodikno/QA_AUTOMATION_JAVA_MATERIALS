@@ -1,4 +1,4 @@
-package com.example.generator;
+package com.example.helpers;
 
 import java.util.Random;
 
