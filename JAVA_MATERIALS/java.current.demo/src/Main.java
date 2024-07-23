@@ -5,25 +5,27 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        User user = new User();
-        User anotherUser = new User();
-        User thirdUser = new User();
+        User alex = new User();
+        User marta = new User();
+        User yulia = new User();
 
-        user.setName("Aleks");
-        anotherUser.setName("Rodion");
-        thirdUser.setName("Marta");
+        alex.setName("Alex");
+        marta.setName("Marta");
+        yulia.setName("Yulia");
 
-        user.addContact(anotherUser);
-        user.addContact(thirdUser);
+        alex.addContact(marta);
+        alex.addContact(yulia);
+
+        marta.addContact(alex);
+        marta.addContact(yulia);
+
+        yulia.addContact(alex);
+        yulia.addContact(marta);
 
 
-        ArrayList<User> users = new ArrayList<>();
-        users.add(user);
-        users.add(anotherUser);
-        users.add(thirdUser);
-
-        users.forEach(printableUser -> System.out.println(printableUser));
-
+        System.out.println(alex);
+        System.out.println(yulia);
+        System.out.println(marta);
 
     }
 }

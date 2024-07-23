@@ -1,19 +1,12 @@
 package com.example.custom;
 
-public class AgeLessThanZeroException extends Exception {
+import javax.management.InvalidAttributeValueException;
+import java.util.IllegalFormatException;
 
-    public AgeLessThanZeroException() {}
+public class AgeLessThanZeroException extends Throwable {
+
 
     public AgeLessThanZeroException(String message) {
         super(message);
     }
-
-    public AgeLessThanZeroException(Throwable cause) {
-        super(cause);
-    }
-
-    public AgeLessThanZeroException(String message, Throwable cause) {
-        super(message, cause);
-    }
-
 }

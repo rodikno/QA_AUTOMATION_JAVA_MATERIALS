@@ -21,10 +21,10 @@ public class User implements UserInterface {
         this.name = name;
     }
 
-    @Override
-    public HashSet<UserInterface> getContacts() {
-        return this.contacts;
-    }
+//    @Override
+//    public HashSet<UserInterface> getContacts() {
+//        return this.contacts;
+//    }
 
 
     @Override
