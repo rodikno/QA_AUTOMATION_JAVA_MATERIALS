@@ -17,7 +17,10 @@ public class Main {
 
         for (Method method : myCat.getClass().getDeclaredMethods()) {
             if (method.isAnnotationPresent(RunImmediately.class)) {
-                method.invoke(myCat);
+                RunImmediately annotation = method.getAnnotation(RunImmediately.class);
+                for (int i = 0; i < annotation.times(); i++) {
+                    method.invoke(myCat);
+                }
             }
         }
 

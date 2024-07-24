@@ -8,7 +8,7 @@ public class Cat {
         this.name = name;
     }
 
-    @RunImmediately
+    @RunImmediately(times = 3)
     public void meow() {
         System.out.println("Meow!");
     }
