@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/QA_AUTOMATION_JAVA_MATERIALS.iml" filepath="$PROJECT_DIR$/.idea/QA_AUTOMATION_JAVA_MATERIALS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java.annotations/java.annotations.iml" filepath="$PROJECT_DIR$/java.annotations/java.annotations.iml" />
       <module fileurl="file://$PROJECT_DIR$/JAVA_MATERIALS/java.arrays/java.arrays.iml" filepath="$PROJECT_DIR$/JAVA_MATERIALS/java.arrays/java.arrays.iml" />
       <module fileurl="file://$PROJECT_DIR$/JAVA_MATERIALS/java.classes.fields.methods/java.classes.fields.methods.iml" filepath="$PROJECT_DIR$/JAVA_MATERIALS/java.classes.fields.methods/java.classes.fields.methods.iml" />
       <module fileurl="file://$PROJECT_DIR$/JAVA_MATERIALS/java.collections.demo/java.collections.demo.iml" filepath="$PROJECT_DIR$/JAVA_MATERIALS/java.collections.demo/java.collections.demo.iml" />
