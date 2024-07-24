@@ -26,7 +26,7 @@
          <phoneNumber>+123456789</phoneNumber>
          <email>alice@example.com</email>
          <address>
-             <street>123 com.example.abstrct.cls.Main St</street>
+             <street>123 com.example.abstrct.cls.com.example.gen.classes.Main St</street>
              <city>Catville</city>
              <postalCode>12345</postalCode>
          </address>

@@ -1,4 +1,4 @@
-package com.example.helpers;
+package com.example.gen.classes.helpers;
 
 import java.io.File;
 import java.nio.file.Path;

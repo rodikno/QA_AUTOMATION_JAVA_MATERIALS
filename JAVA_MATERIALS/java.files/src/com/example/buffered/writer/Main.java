@@ -1,7 +1,5 @@
 package com.example.buffered.writer;
 
-import com.example.helpers.FilePathHelper;
-
 import java.io.*;
 
 public class Main {
