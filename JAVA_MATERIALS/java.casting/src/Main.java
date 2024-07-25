@@ -1,5 +1,31 @@
+import java.util.ArrayList;
+import java.util.Objects;
+
 public class Main {
     public static void main(String[] args) {
+
+
+        ArrayList<Object> list = new ArrayList<>();
+
+        ///
+
+        list.add(new Cat());
+        list.add(new Dog());
+        list.add(new String("Hello"));
+
+        //
+        //
+        //
+
+        Object o = list.get(0);
+        if (o instanceof Dog) {
+            Dog dog = (Dog) o;
+            dog.bark();
+        } else {
+            System.out.println("Dude wrong guess");
+        }
+
+
 
         /*
         * Animal
@@ -28,7 +54,7 @@ public class Main {
         }
 
         // Небезпечний Downcasting без перевірки instanceof
-        Animal justAnimal = new Animal();
+        Animal justAnimal = new Dog();
         try {
             Cat cat = (Cat) justAnimal; // Неправильне перетворення, викликає ClassCastException
             cat.meow();

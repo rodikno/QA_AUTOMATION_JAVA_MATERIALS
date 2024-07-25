@@ -1,9 +1,6 @@
 package com.example.generic.classes;
 
-import com.example.generic.classes.helpers.Candy;
-import com.example.generic.classes.helpers.Chocolate;
-import com.example.generic.classes.helpers.ChocolateType;
-import com.example.generic.classes.helpers.TasteEnum;
+import com.example.generic.classes.helpers.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -17,13 +14,24 @@ public class Main {
         candy.setTaste(TasteEnum.SOUR);
 
 
-        BoxOfChocolates chocoBox = new BoxOfChocolates();
-        chocoBox.addChocolate(choco);
+        BoxOfSweetThings<Candy> candyBox = new BoxOfSweetThings<>();
+        BoxOfSweetThings<Chocolate> chocolateBox = new BoxOfSweetThings<>();
 
+
+
+        printAllThingsFromTheBox(candyBox);
+        printAllThingsFromTheBox(chocolateBox);
 //        chocoBox.addChocolate(candy); -> this won't work
-
-        Box<Chocolate> box = new Box<>();
-        box.addSweetieToTheBox(choco);
+//
+//        Box<Chocolate> box = new Box<>();
+//        box.addSweetieToTheBox(choco);
 
     }
+
+
+    public static void printAllThingsFromTheBox(BoxOfSweetThings<?> box) {
+        System.out.println(box);
+    }
+
+
 }

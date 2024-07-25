@@ -1,6 +1,6 @@
 package com.example.generic.classes.helpers;
 
-public class Chocolate {
+public class Chocolate extends SweetThing {
     private String title;
     private ChocolateType type;
 

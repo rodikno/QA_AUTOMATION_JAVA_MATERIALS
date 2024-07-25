@@ -1,6 +1,5 @@
 package com.example.generic.wildcards;
 
-import com.example.generic.classes.BoxOfSweeties;
 import com.example.generic.classes.helpers.Chocolate;
 
 import java.util.ArrayList;
