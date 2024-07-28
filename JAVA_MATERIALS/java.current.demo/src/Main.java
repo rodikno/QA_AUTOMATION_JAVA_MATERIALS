@@ -1,31 +1,27 @@
-import java.util.ArrayList;
-import java.util.Random;
-import java.util.Scanner;
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
 
-        User alex = new User();
-        User marta = new User();
-        User yulia = new User();
-
-        alex.setName("Alex");
-        marta.setName("Marta");
-        yulia.setName("Yulia");
-
-        alex.addContact(marta);
-        alex.addContact(yulia);
-
-        marta.addContact(alex);
-        marta.addContact(yulia);
-
-        yulia.addContact(alex);
-        yulia.addContact(marta);
-
-
-        System.out.println(alex);
-        System.out.println(yulia);
-        System.out.println(marta);
+        writeToFile("rodion.txt", "Hello world!");
 
     }
+
+
+    public static void writeToFile(String filename, String content) throws IOException {
+
+        BufferedWriter writer = null;
+        try {
+            writer = new BufferedWriter(new FileWriter(filename));
+            writer.write(content);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        } finally {
+            writer.close();
+        }
+
+    }
+
 }

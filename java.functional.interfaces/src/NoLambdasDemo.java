@@ -20,6 +20,8 @@ public class NoLambdasDemo {
         //OOP Style
         ThingWithAName thing = new ThingWithAName("Pineapple John");
         thing.print(); //prints "Pineapple John"
+
+        //Not really an OOP style -> calling a function and passing object as a parameter
         printThing(thing); // prints "Pineapple John"
 
 
