@@ -14,14 +14,14 @@
       <module fileurl="file://$PROJECT_DIR$/JAVA_MATERIALS/java.enums/java.enums.iml" filepath="$PROJECT_DIR$/JAVA_MATERIALS/java.enums/java.enums.iml" />
       <module fileurl="file://$PROJECT_DIR$/JAVA_MATERIALS/java.exceptions/java.exceptions.iml" filepath="$PROJECT_DIR$/JAVA_MATERIALS/java.exceptions/java.exceptions.iml" />
       <module fileurl="file://$PROJECT_DIR$/JAVA_MATERIALS/java.files/java.files.iml" filepath="$PROJECT_DIR$/JAVA_MATERIALS/java.files/java.files.iml" />
-      <module fileurl="file://$PROJECT_DIR$/java.functional.interfaces/java.functional.interfaces.iml" filepath="$PROJECT_DIR$/java.functional.interfaces/java.functional.interfaces.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JAVA_MATERIALS/java.functional.interfaces/java.functional.interfaces.iml" filepath="$PROJECT_DIR$/JAVA_MATERIALS/java.functional.interfaces/java.functional.interfaces.iml" />
       <module fileurl="file://$PROJECT_DIR$/JAVA_MATERIALS/java.generics/java.generics.iml" filepath="$PROJECT_DIR$/JAVA_MATERIALS/java.generics/java.generics.iml" />
       <module fileurl="file://$PROJECT_DIR$/JAVA_MATERIALS/java.loops/java.loops.iml" filepath="$PROJECT_DIR$/JAVA_MATERIALS/java.loops/java.loops.iml" />
       <module fileurl="file://$PROJECT_DIR$/JAVA_MATERIALS/java.oop.abstraction/java.oop.abstraction.iml" filepath="$PROJECT_DIR$/JAVA_MATERIALS/java.oop.abstraction/java.oop.abstraction.iml" />
       <module fileurl="file://$PROJECT_DIR$/JAVA_MATERIALS/java.oop.inheritance/java.oop.inheritance.iml" filepath="$PROJECT_DIR$/JAVA_MATERIALS/java.oop.inheritance/java.oop.inheritance.iml" />
       <module fileurl="file://$PROJECT_DIR$/JAVA_MATERIALS/java.operators/java.operators.iml" filepath="$PROJECT_DIR$/JAVA_MATERIALS/java.operators/java.operators.iml" />
       <module fileurl="file://$PROJECT_DIR$/JAVA_MATERIALS/java.primitive.types/java.primitive.types.iml" filepath="$PROJECT_DIR$/JAVA_MATERIALS/java.primitive.types/java.primitive.types.iml" />
-      <module fileurl="file://$PROJECT_DIR$/java.streams/java.streams.iml" filepath="$PROJECT_DIR$/java.streams/java.streams.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JAVA_MATERIALS/java.streams/java.streams.iml" filepath="$PROJECT_DIR$/JAVA_MATERIALS/java.streams/java.streams.iml" />
       <module fileurl="file://$PROJECT_DIR$/JAVA_MATERIALS/java.string.and.reference.types/java.string.and.reference.types.iml" filepath="$PROJECT_DIR$/JAVA_MATERIALS/java.string.and.reference.types/java.string.and.reference.types.iml" />
     </modules>
   </component>

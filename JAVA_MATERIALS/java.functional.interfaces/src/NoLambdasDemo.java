@@ -1,6 +1,8 @@
 import com.example.helpers.Printable;
 import com.example.helpers.ThingWithAName;
 
+import java.lang.invoke.VarHandle;
+
 public class NoLambdasDemo {
 
     public static void main(String[] args) {
@@ -13,8 +15,6 @@ public class NoLambdasDemo {
         // Make .print() method of an Interface accept a variable
         // Make .print() method of an Interface return value
         // Provide some examples of standard java.util FunctionalInterfaces: Predicate, Consumer, Supplier, Function
-
-
 
 
         //OOP Style
@@ -36,7 +36,11 @@ public class NoLambdasDemo {
 
 
         // The Same but with lambda expression
-        Printable lambdaPrintable = () -> System.out.println("Hey I like to be printed");
+        Printable lambdaPrintable = () -> {
+            System.out.println("Hey I like to be printed");
+        };
+
+
         printThing(lambdaPrintable);
 
     }
