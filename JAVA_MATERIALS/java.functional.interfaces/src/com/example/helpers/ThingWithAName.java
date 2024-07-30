@@ -5,6 +5,7 @@ public class ThingWithAName implements Printable {
     String name;
 
     public ThingWithAName() {
+
     }
 
     public ThingWithAName(String name) {
