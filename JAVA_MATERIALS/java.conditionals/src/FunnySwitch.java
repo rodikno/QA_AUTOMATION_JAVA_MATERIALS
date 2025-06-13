@@ -4,7 +4,7 @@ public class FunnySwitch {
 
         /* 3 MAIN RULES OF USING SWITCH-CASE
         * 1) Use only when there's no alternative
-        * 2) DON't you dare to forget BREAK in the end of CASE statement
+        * 2) DON't you dare to forget BREAK in the end of CASE statement (if old-styled switch is used)
         * 3) Always use DEFAULT block in the end to tell your program what to do in case none of the cases was effective
         * */
 
