@@ -7,7 +7,7 @@ import com.example.animals.Animal;
  */
 public class Food extends Animal {
 
-    String name;
+    public String name;
     int calories;
 
     public Food(String name, int age) {

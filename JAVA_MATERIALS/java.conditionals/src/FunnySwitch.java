@@ -1,5 +1,7 @@
 public class FunnySwitch {
     public static void main(String[] args) {
+
+
         int dayOfWeek = 1; // 1 for Monday, 2 for Tuesday, ..., 7 for Sunday
 
         /* 3 MAIN RULES OF USING SWITCH-CASE
@@ -34,5 +36,8 @@ public class FunnySwitch {
                 System.out.println("Invalid day. Time is an illusion.");
                 break;
         }
+
+
+        System.out.println("THIS IS PRINTED UNCONDITIONALLY");
     }
 }

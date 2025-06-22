@@ -2,13 +2,18 @@ public class FunnySwitchJDK17 {
 
     public static void main(String[] args) {
 
-        String dayType = "MONDAY";
+//        ....
+        /*....
+        *
+        * ..
+        * .*/
 
-        String motivationMessage = switch (dayType) {
-            case "MONDAY" -> "It's Monday... Grab extra coffee.";
-            case "FRIDAY" -> "It's Friday! Almost time to party!";
-            case "SATURDAY", "SUNDAY" -> "Yay! It's the weekend. Take a nap.";
-            default -> "Just another midweek grind day.";
+        WeatherTypes currentWeather = WeatherTypes.SUNNY;
+
+        String motivationMessage = switch (currentWeather) {
+            case SNOWY -> "It's snowing. Take a shower.";
+            case RAINY -> "It's raining. Take a umbrella.";
+            case SUNNY, WINDY -> "Yay! It's sunny. Or Windy";
         };
 
         System.out.println(motivationMessage);
