@@ -12,7 +12,7 @@ public abstract class AbstractAnimal extends AbstractLivingCreature {
     protected abstract void makeSound();
 
 
-    static void sleep() {
+    void sleep() {
         System.out.println("Zzz...");
     }
 

@@ -1,52 +1,109 @@
+import java.util.Arrays;
+import java.util.Scanner;
+import java.util.stream.Stream;
+
 public class Main {
+
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
 
-        // Тут має розгортатися епічна битва між Супергероями
+        // Нижче перша частина завдання для прикладу
+        // Там де в завданні вказані початкові дані у вигляді масиву - ініціалізуйте окремий масив
+        // Нижче обробляйте масив, додайте логіку обробки
+        // Частина 1: Увійди в Замок
+        int[] secretCode = {7, 14, 28, 56, 112};
+        System.out.println("Введіть 5 чисел, щоб відкрити двері замку:");
+        // System.out.println(Arrays.toString(secretCode));
+        boolean isCodeCorrect = true;
 
-        SuperHero flash = new SuperHero();
-        SuperHero ironMan = new SuperHero();
-        SuperHero jackieChan = new SuperHero();
-
-        flash.name ="flash";
-        flash.attackPower=20;
-        flash.deffencePower=10;
-        flash.health=100;
-        flash.isAlive=true;
-
-        ironMan.name="ironMan";
-        ironMan.attackPower=15;
-        ironMan.deffencePower=5;
-        ironMan.health=100;
-        ironMan.isAlive=true;
-
-        jackieChan.name="Jackie";
-        jackieChan.attackPower=15;
-        jackieChan.deffencePower=10;
-        jackieChan.health=100;
-        jackieChan.isAlive=true;
-
-        System.out.println("Let's the game begin");
-
-        // If both alive - no problem - fight continues
-        // Hero will get to know when he's dead (it's included inside .getDamage method
-        // So the only thing to check here is if the second hero is still alive to cause some damage
-        while (flash.isAlive() && ironMan.isAlive()){
-            flash.attack(ironMan, 25);
-            if (ironMan.isAlive()) {
-                ironMan.attack(flash, 10);
+        for (int i = 0; i < secretCode.length; i++) {
+            int userInput = scanner.nextInt(); // питаємо в користувача чергове число
+            if (userInput != secretCode[i]) { // перевіряємо число проти i-го елемента масиву з правильним кодом
+                isCodeCorrect = false; // якщо натрапляємо на неправильно введене число - усю комбінацію вважаємо невірною
             }
         }
 
-        System.out.println("Let's the game begin");
-        while (flash.isAlive() && jackieChan.isAlive()){
-            flash.attack(jackieChan, 15);
-            if (!jackieChan.isAlive()) break;
-            jackieChan.attack(flash, 25);
-            if (!flash.isAlive()) break;
+        if (isCodeCorrect) {
+            System.out.println("Замок відкрито! Заходьте всередину.");
+        } else {
+            System.out.println("Невірний код. Спробуйте ще.");
+            return;
+        }
+
+        // Інші частини пригоди додайте тут!
+
+
+        int[] magicBoard = {3, 6, 9, 12, 15, 18, 21, 24, 27, 30};
+        System.out.println("Потрапивши у замок, ти бачиш чарівну дошку з числами.");
+        for (int number : magicBoard) {
+            System.out.print(number + " ");
+        }
+        System.out.println("Підказка: Сума магічних чисел відкриє ще одну кімнату.");
+
+        int magicBoardSum = 0;
+        for (int number : magicBoard) {
+            magicBoardSum += number;
+        }
+
+        // System.out.println(magicBoardSum);
+
+        int userInput2 = scanner.nextInt();
+
+        if (userInput2 == magicBoardSum) {
+            System.out.println("Твоя відповідь вірна! Ти проходиш далі!");
+        } else {
+            System.out.println("Твоя відповідь не вірна. Ти програв гру.");
+            return;
         }
 
 
+        System.out.println("Для того щоб здолати Дракона, треба передбачити його атаку.");
+
+        int[] dragonAttack = {8, 16, 24, 32, 40};
+        boolean allAttacksEven = true;
 
 
+        for (int attack : dragonAttack) {
+            if (attack % 2 != 0) {
+                allAttacksEven = false;
+                break;
+            }
+        }
+
+        if (allAttacksEven) {
+            System.out.println("Атаки парні! Захист активовано!");
+        } else {
+            System.out.println("Увага! Непарна атака!");
+        }
+
+        int combinedLength = secretCode.length + magicBoard.length + dragonAttack.length;
+        int[] magicKey = new int[combinedLength];
+
+        System.arraycopy(secretCode, 0, magicKey, 0, secretCode.length);
+        System.arraycopy(magicBoard, 0, magicKey, secretCode.length, magicBoard.length);
+        System.arraycopy(dragonAttack, 0, magicKey, secretCode.length + magicBoard.length, dragonAttack.length);
+
+        //System.out.println(Arrays.toString(magicKey));
+
+        System.out.println("Знайди магічний ключ. Яке твоє улюблене число?");
+        int favoriteNumber = scanner.nextInt();
+        scanner.close();
+
+        boolean keyFound = false;
+
+
+        for (int number : magicKey) {
+            if (number == favoriteNumber) {
+                keyFound = true;
+                break;
+            }
+        }
+
+        if (keyFound){
+            System.out.println("Твій ключ знайдено!");
+        } else {
+            System.out.println("Треба більше магії...");
+        }
     }
+
 }

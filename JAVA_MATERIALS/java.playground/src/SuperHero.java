@@ -1,58 +1,63 @@
 import java.util.Random;
-
 public class SuperHero {
 
-    // Тут мають бути властивості і поведінка Супергероя
+    private String name;
+    private int baseAttack;
+    private int baseDefense;
+    private int health;
+    private String specialAbility;
+    private Random random = new Random();
 
-    public Random random = new Random();
-    String name;
-    int attackPower;
-    int deffencePower;
-    int health = 100;
-    boolean isAlive = true;
-
-    public void attack(SuperHero opponent, int attackStrength) {
-        System.out.println("SuperHero " + name + " attacks ");
-        int event = random.nextInt(3) + 1;
-        if (event == 1) {
-            int bonusAttack = random.nextInt(6) + 1;
-            System.out.println("SuperHero " + name + " recives bonus to the attack " + bonusAttack);
-            attackStrength += bonusAttack;
-        } else {
-            int bonusDefence;
-            bonusDefence = random.nextInt(6) + 1;
-            opponent.protectionUsed(bonusDefence);
-        }
-        opponent.getDamaged(attackStrength);
+    public SuperHero(String name, int attackPower, int defensePower, String specialAbility) {
+        this.name = name;
+        this.baseAttack = attackPower;
+        this.baseDefense = defensePower;
+        this.health = 100;
+        this.specialAbility = specialAbility;
     }
 
-    public void getDamaged(int attackPower) {
-        System.out.println("SuperHero " + name + " recives " + attackPower + " of damage ");
-        health -= attackPower;
-
-        if (health <= 0) {
-            health = 0;
-            isAlive = false;
-            System.out.println("SuperHero " + name + " is dead. The game is over ");
-        } else {
-            showStats();
+    public void attack(SuperHero opponent) {
+        int attackPower = baseAttack;
+        if (random.nextInt(100) < 20) {
+            attackPower += 10;
+            System.out.println(" " + name + " використовує суперздібність: " + specialAbility + "!");
         }
+
+        int damage = Math.max(0, attackPower - opponent.baseDefense);
+        System.out.println(name + " атакує " + opponent.name + " і завдає " + damage + " ушкоджень.");
+        opponent.takeDamage(damage);
+    }
+
+    public void applyRandomBuff() {
+        int chance = random.nextInt(100);
+        if (chance < 10) {
+            baseAttack += 5;
+            System.out.println(" " + name + " отримує бонус до атаки (+5) цього раунду!");
+        } else if (chance < 20) {
+            baseDefense += 5;
+            System.out.println(" " + name + " отримує бонус до захисту (+5) цього раунду!");
+        }
+    }
+
+    public void takeDamage(int damage) {
+        this.health -= damage;
+        if (this.health < 0) this.health = 0;
     }
 
     public boolean isAlive() {
-        return health > 0;
+        return this.health > 0;
     }
 
-
-    public void protectionUsed(int deffencePower) {
-        System.out.println("SuperHero " + name + " revices " + deffencePower + " protection bonus ");
-        health += deffencePower;
+    public String getName() {
+        return name;
     }
 
-
-    public void showStats() {
-        System.out.println("SuperHero " + name + " has " + health + " points left ");
+    public int getHealth() {
+        return health;
     }
 
-
+    public void printStatus() {
+        System.out.println("Герой " + this.name);
+        System.out.println("Залишок здоров*я " + this.health);
+    }
 }
