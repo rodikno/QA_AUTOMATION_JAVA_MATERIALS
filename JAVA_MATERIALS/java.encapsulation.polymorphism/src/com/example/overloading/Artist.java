@@ -7,12 +7,16 @@ class Artist {
         shape.draw();
     }
 
+    public void drawShape(String some, String somethingElse) {
+
+    }
+
+
     public void drawShape(String shapeName) {
         switch (shapeName) {
             case "CIRCLE" -> System.out.println("DRAWING A CIRCLE");
             case "SQUARE" -> System.out.println("DRAWING A SQUARE");
             default -> System.out.println("I DON'T KNOW THIS SHAPE");
-
         }
     }
 

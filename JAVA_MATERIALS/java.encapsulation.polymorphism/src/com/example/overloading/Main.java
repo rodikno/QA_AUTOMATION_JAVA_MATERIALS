@@ -5,11 +5,15 @@ public class Main {
 
         Artist artist = new Artist();
         Shape myShape = new Shape();
+        Circle myCircle = new Circle();
+        Square mySquare = new Square();
+        Triangle myTriangle = new Triangle();
 
-//        artist.drawShape(myShape);
-//        artist.drawShape("OVAL");
-        int sides = artist.drawShape(8);
-        System.out.println(sides);
+        artist.drawShape(myShape);
+        artist.drawShape("SQUARE");
+        int sidesDrawn = artist.drawShape(8);
+
+
 
     }
 }

@@ -5,12 +5,17 @@ public class User {
     private String username;
     private String email;
     private int age;
+    private String password;
 
     // Constructor
     public User(String username, String email, int age) {
         this.username = username;
         this.email = email;
         setAge(age); // Use setter to apply validation
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
     }
 
     // Getter for username
