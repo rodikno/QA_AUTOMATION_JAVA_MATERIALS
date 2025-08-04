@@ -1,6 +1,13 @@
 package com.example.abstrct.animals;
 
-public class Dog extends Animal, WalkingAnimal {
+public class Dog implements Walker {
+
+
+    @Override
+    public void walk() {
+
+
+    }
 }
 
 

@@ -5,11 +5,11 @@ package com.example.abstrct.animals;
 // Тому не зобов'язаний надавати тіло методам батька
 abstract class AbstractAnimal extends AbstractLivingCreature {
 
+
+
     protected abstract void makeSound();
     protected abstract void sleep();
-    protected abstract void eat();
 }
-
 
 
 

@@ -1,5 +1,5 @@
 package com.example.abstrct.cls;
 
 public abstract class AbstractLivingCreature {
-    abstract void eat();
+    public abstract void eat();
 }

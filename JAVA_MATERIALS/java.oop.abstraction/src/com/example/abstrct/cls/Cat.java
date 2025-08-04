@@ -14,7 +14,7 @@ public class Cat extends AbstractAnimal {
 
 
     @Override
-    void eat() {
+    public void eat() {
         System.out.println("Ням-ням я котик");
     }
 }

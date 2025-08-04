@@ -5,7 +5,6 @@ public interface Hunter {
     void hunt();
     void catchPrey();
 
-
 }
 
 
