@@ -19,5 +19,6 @@ public class Main {
         // Створимо новий об'єкт з тими ж значеннями
         Person p3 = new Person("Alice", 30);
         System.out.println(personMap.get(p3)); // Engineer, оскільки p1 і p3 рівні
+
     }
 }

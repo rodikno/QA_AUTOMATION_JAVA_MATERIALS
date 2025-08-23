@@ -1,5 +1,0 @@
-Hello I'm learning how to use files from Java
-two
-three
-four
-five

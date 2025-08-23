@@ -1,11 +1,43 @@
 package example.maps.hashmap;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
+
+
+        ArrayList<Integer> number = new ArrayList<>();
+
+        TreeMap<String, Double> accountBalances = new TreeMap<>();
+
+        accountBalances.put("Ivan", 1000.50);
+        accountBalances.put("Olena", 15000.47);
+
+        accountBalances.get("Ivan");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         Map<String, Integer> hashMap = new HashMap<>();
 
         hashMap.put("One", 1);

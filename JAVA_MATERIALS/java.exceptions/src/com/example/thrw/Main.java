@@ -1,14 +1,28 @@
 package com.example.thrw;
 
-import java.security.InvalidParameterException;
+import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) {
+
         try {
-            throw new ArithmeticException("Dude, You can't divide by zero like that");
-        } catch (ArithmeticException e) {
-            System.out.println("Exception caught: " + e);
-            throw new InvalidParameterException("The divisor can't be zero or otherwise everything burns");
+            thisMethodThrowsCheckedException();
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        } catch (NullPointerException e) {
+
+        } catch (RuntimeException e) {
+            System.out.println(e.getMessage());
+        } catch (Exception e) {
+            System.out.println("Something went wrong!");
         }
+
     }
+
+
+    public static void thisMethodThrowsCheckedException() throws IOException {
+        throw new IOException("HAAHAA EXCEPTION");
+    }
+
+
 }

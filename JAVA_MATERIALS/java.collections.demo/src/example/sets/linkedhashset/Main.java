@@ -10,12 +10,11 @@ public class Main {
         linkedHashSet.add("World");
         linkedHashSet.add("Hello"); // Дублікати не допускаються
 
-        System.out.println(linkedHashSet); // [Hello, World]
+        if (linkedHashSet.isEmpty()) {
+            System.out.println("LinkedHashSet is empty");
+        } else {
+            linkedHashSet.forEach(elem -> linkedHashSet.remove(elem));
+        }
 
-        linkedHashSet.remove("World");
-        System.out.println(linkedHashSet); // [Hello]
-
-        boolean contains = linkedHashSet.contains("Hello");
-        System.out.println(contains); // true
     }
 }
