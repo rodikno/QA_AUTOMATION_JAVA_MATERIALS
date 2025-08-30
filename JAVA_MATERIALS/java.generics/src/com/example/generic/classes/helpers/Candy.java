@@ -2,7 +2,7 @@ package com.example.generic.classes.helpers;
 
 public class Candy extends SweetThing {
     private String title;
-    private TasteEnum taste;
+    private Taste taste;
 
     public String getTitle() {
         return title;
@@ -12,11 +12,11 @@ public class Candy extends SweetThing {
         this.title = title;
     }
 
-    public TasteEnum getTaste() {
+    public Taste getTaste() {
         return taste;
     }
 
-    public void setTaste(TasteEnum taste) {
+    public void setTaste(Taste taste) {
         this.taste = taste;
     }
 }

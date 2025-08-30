@@ -23,6 +23,7 @@ public class ReadingFromFile {
 
         // Спосіб 4: як байти
         byte[] bytes = Files.readAllBytes(Path.of("file.txt"));
+        System.out.println("HELLo");
 
     }
 }

@@ -10,7 +10,7 @@ public class WorkingWithPaths {
 
         // Створення Path
         Path path1 = Path.of("folder", "file.txt");  // Java 11+
-        Path path2 = Paths.get("folder/file.txt");         // альтернативний спосіб
+        Path path2 = Paths.get("file.txt").toAbsolutePath();         // альтернативний спосіб
 
         // Корисні методи
         System.out.println(path1.getFileName());          // file.txt

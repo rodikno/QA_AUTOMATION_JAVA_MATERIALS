@@ -2,7 +2,7 @@ package com.example.generic.classes.helpers;
 
 public class Bun {
     private String title;
-    private TasteEnum taste;
+    private Taste taste;
     private int softnessLevel;
 
 
@@ -14,11 +14,11 @@ public class Bun {
         this.title = title;
     }
 
-    public TasteEnum getTaste() {
+    public Taste getTaste() {
         return taste;
     }
 
-    public void setTaste(TasteEnum taste) {
+    public void setTaste(Taste taste) {
         this.taste = taste;
     }
 

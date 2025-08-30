@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -9,6 +11,7 @@ public class Main {
 //        for (Season ssn : Season.values()) {
 //            System.out.println(ssn.toString() + ", " + ssn.getTranslation());
 //        }
+
 
         DaysOfWeek day = DaysOfWeek.THURSDAY;
 
